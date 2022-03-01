@@ -1,5 +1,5 @@
 
-#### Q2
+##### Q2
 print(5**9)
 
 print(3//2)
@@ -28,7 +28,7 @@ print(((True == False) or (False > True)) and (False <= True))
 
 ##### Q3
 
-s1 = "nice to have it"
+s1 = "nice to have it "
 s2 = "here"
 print(s1+s2)
 
@@ -43,13 +43,11 @@ print (g)
 
 #### Q5
 
-### Q5
-
 a.append(s2)
 a.insert(0,s1)
 print(a)
 
-### Q6
+##### Q6
 
 numbers = [386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615,
 953, 345, 399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949,
@@ -63,17 +61,17 @@ for i in numbers:
         sol_list.append(i)
 print(sol_list)
 
-### Q7
+##### Q7
 
 color_list_1 = set(["White", "Black", "Red"])
 color_list_2 = set(["Red", "Green"])
 print(color_list_1-color_list_2)
 
-### Q8
+##### Q8
 
-#x=str(input('sentence to be checked paragram or not'))
+x=str(input('sentence to be checked paragram or not'))
 
-### Q9
+##### Q9
 
 n=int(input('n :'))
 n1=int("%s"%n)
@@ -82,19 +80,19 @@ n3=int("%s%s%s"%(n,n,n))
 total=n1+n2+n3
 print(total)
 
-### Q10
+#####Q10
 
 
 
 
-### Q11
+#####Q11
 
 z=input().split(',')
 print(z)
 z.sort()
 print(z)
 
-### Q12
+#####Q12
 
 d={'student':['rahul','kishore','vidhya','raakhi'],'Marks':[57,87,67,79]}
 t=max(d['Marks'])
@@ -102,7 +100,7 @@ ini=d['Marks'].index(t) ## ini integer value for index
 m=d['student']
 print(m[ini])
 
-### Q13
+#####Q13
 
 l='hello woeld! 123'
 w=[]
